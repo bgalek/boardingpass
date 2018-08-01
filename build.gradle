@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'it.detektywi'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '25.1-jre'
+    compile group: 'com.google.zxing', name: 'core', version: '3.3.3'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.0.0'
+}
